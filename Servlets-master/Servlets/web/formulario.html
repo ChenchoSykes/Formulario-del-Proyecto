@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div style="width: 100%; height: 100%; background-image: url(Imagenes/Imagen.jpg) ">
+            <center><h2>Formulario</h2></center>
+
+
+
+            <form method="POST" action='ServletFormulario'>
+                <BR>
+                <BR>
+                <center>
+                    Complete el Formulario 
+                    <BR>
+                    <BR>Nombres: <input type=text name=nombres>
+                    <BR>
+                    <BR>Apellidos: <input type=text name=apellidos>
+                    <BR>
+                    <BR>Edad: <input type=text name=edad>
+                    <BR>
+                    <BR>Hombre: <input type=radio name=sexo>
+                    <BR>
+                    <BR>Mujer: <input type=radio name=sexo>
+                    <BR>
+                    <BR>Correo: <input type=text name=correo>
+                    <BR>
+                    <BR>
+                    Ciudad: 
+                    <SELECT NAME="Ciudad" SIZE="1"> 
+                        
+                        <OPTION VALUE="Iztapalapa">Iztapalapa</OPTION>
+                        <OPTION VALUE="Gustavo">Gustavo I. Madero</OPTION>
+                        <OPTION VALUE="Tlalpan">Tlalpan</OPTION>
+                        <OPTION VALUE="Miguel Hidalgo">Miguel Hidalgo</OPTION> 
+                    </SELECT> 
+                    <BR>
+                    <BR>
+                    <BR><input type=submit value="Enviar">
+                    <input type=reset value="Borrar">
+                </center>
+            </form>
+
+        </div>
+    </body>
+</html>
+
